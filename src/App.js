@@ -14,7 +14,8 @@ class App extends React.Component {
   state={
       employees,
       search: '',
-      filteredArray: []
+      filteredArray: [],
+      ascending: true
     }
  
 
@@ -24,7 +25,7 @@ searchSpace=(event)=>{
     var newFilteredArray= []
     this.state.employees.map(function (emp) {
       if( keyword.toLowerCase() === emp.name.substring(0 , keyword.length).toLowerCase())(
-        // console.log("found a match", emp)
+        
         newFilteredArray.push(emp)
       )
     })
@@ -33,6 +34,38 @@ searchSpace=(event)=>{
     this.setState({search:keyword, filteredArray: newFilteredArray}) 
   }
 
+handleOrder= () => {
+  console.log("we got clicked")
+  var oldOrder = this.state.employees
+
+  var self = this
+  function compare( a, b ) {
+    if(self.state.ascending === true){
+      if ( a.name.split(' ')[0] < b.name.split(' ')[0]){
+        return -1;
+      }
+      if ( a.name.split(' ')[0] > b.name.split(' ')[0] ){
+        return 1;
+      }
+      return 0;
+    }
+    else{
+      if ( a.name.split(' ')[0] > b.name.split(' ')[0]){
+        return -1;
+      }
+      if ( a.name.split(' ')[0] < b.name.split(' ')[0] ){
+        return 1;
+      }
+      return 0;
+    }
+    
+  }
+  
+  var newOrder = oldOrder.sort( compare );
+
+  console.log("what happened", newOrder)
+  this.setState({employees: newOrder, ascending: !this.state.ascending})
+}
 
   
   render (){
@@ -47,7 +80,7 @@ if (this.state.filteredArray.length > 0){
   <div>
     <Header />
     <Search searchSpace={this.searchSpace} />
-    <Table>
+    <Table handleOrder={this.handleOrder}>
     <tbody>
       {employeesToShow.map(employee => {
         return (
