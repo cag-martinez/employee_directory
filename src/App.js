@@ -1,5 +1,4 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './styles/header.css';
 import './styles/table.css';
 import Header from './components/Header';
