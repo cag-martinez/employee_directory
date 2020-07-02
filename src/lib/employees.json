@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "image":"https://randomuser.me/api/portraits/men/1.jpg",
+      "name": "Carl Hoffman",
+      "phone": "916-660-8470",
+      "email": "carl.hoffman@example.com",
+      "dob": "1947-08-16" 
+    },
+    {
+      "id": 2,
+      "image":"https://randomuser.me/api/portraits/men/50.jpg",
+      "name": "Soan Gall",
+      "phone": "303-565-4356",
+      "email": "soan.legall@example.com",
+      "dob": "1967-18-26" 
+    },
+    {
+      "id": 3,
+      "image": "https://randomuser.me/api/portraits/women/49.jpg",
+      "name": "Clara Lang",
+      "phone": "965-660-8989",
+      "email": "clara.lang@example.com",
+      "dob": "1989-08-11" 
+    },
+    {
+      "id": 4,
+      "image": "https://randomuser.me/api/portraits/women/62.jpg",
+      "name": "Louisa Mendez",
+      "phone": "413-660-6540",
+      "email": "louisa.mendez@example.com",
+      "dob": "1988-12-03" 
+    },
+    {
+      "id": 5,
+      "image": "https://randomuser.me/api/portraits/men/98.jpg",
+      "name": "Otto Rautillo",
+      "phone": "456-225-4523",
+      "email": "otto.Rautillo@example.com",
+      "dob": "1974-08-03" 
+    },
+    {
+      "id": 6,
+      "image": "https://randomuser.me/api/portraits/women/74.jpg",
+      "name": "Cremilda Souza",
+      "phone": "543-663-2356",
+      "email": "cremilda.souza@example.com",
+      "dob": "1984-6-18" 
+    },
+    {
+      "id": 7,
+      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Denise Foster",
+      "phone": "7763-225-6782",
+      "email": "denise.foster@example.com",
+      "dob": "1981-04-26" 
+    },
+    {
+      "id": 8,
+      "image": "https://randomuser.me/api/portraits/men/33.jpg",
+      "name": "Gordon Richards",
+      "phone": "624-874-7511",
+      "email": "gordon.richards@example.com",
+      "dob": "1957-11-03" 
+    },
+    {
+      "id": 9,
+      "image":"https://randomuser.me/api/portraits/women/38.jpg",
+      "name": "Sheryl Arnold",
+      "phone": "627-882-8366",
+      "email": "sheryl.arnold@example.com",
+      "dob": "1973-08-16" 
+    },
+    {
+      "id": 10,
+      "image": "https://randomuser.me/api/portraits/men/66.jpg",
+      "name": "David West",
+      "phone": "762-718-9924",
+      "email": "david.west@example.com",
+      "dob": "1990-01-06" 
+    },
+    {
+      "id": 11,
+      "image":"https://randomuser.me/api/portraits/women/79.jpg",
+      "name": "Madame Margarete",
+      "phone": "627-567-2477",
+      "email": "madame.margarete@example.com",
+      "dob": "1966-06-24" 
+    }
+
+
+]

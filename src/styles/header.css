@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+  }
+  
+  #robotron {
+      background-color: rgb(5, 5, 70);
+      color: white;
+      border-bottom: 4px solid;
+      margin-bottom: -1px;
+      border-color: crimson;
+  }
