@@ -1,16 +1,21 @@
 import React from "react";
+//import employees from "./lib/employees.json"
 
-function Search() {
+const Search = (props) => {
   return (
     <div>
       <br />
       <div className="box" id="search-bar">
-        <input type="search" id="search" placeholder="Search" />
+        <input type="text" id="search" placeholder="Search by name" 
+        onChange = {(e)=>props.searchSpace(e)}/>
       
-      <button type="button" className="btn btn-link">Search</button>
+        {/* <button type="button" className="btn btn-link"
+        onClick={this.handleFormSubmit}>Search</button> */}
       </div>
     </div>
   );
 }
 
 export default Search;
+// on line 10 i added the value and on change attributes to handle the search
+//on line 13 i added a onclick for the button

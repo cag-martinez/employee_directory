@@ -3,7 +3,6 @@ import "../styles/table.css"
 
 
 function Table (props) {
-
     return (
    <table className ="table responsive">
   <thead>
@@ -17,8 +16,6 @@ function Table (props) {
   </thead>
   {props.children}
   </table>
-
-    
     )
 };
 
