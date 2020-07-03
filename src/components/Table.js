@@ -1,10 +1,10 @@
 import React from 'react'
-import "../styles/table.css"
+
 
 
 function Table (props) {
     return (
-   <table className ="table responsive">
+   <table className ="table">
   <thead>
     <tr>
       <th>Image</th>

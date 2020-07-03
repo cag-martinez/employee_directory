@@ -6,8 +6,10 @@ function Header() {
         <div className="App-header container">
           <h2 className="display-4">Employee-Directory</h2>
           <p>
-            Click on the name carrot to filter in asending or decending order
-            or use the search bar to search by name.
+            press on the name carrot to filter in ascending or descending order
+          </p>
+          <p>
+            or search by name
           </p>
           </div>
         </div>

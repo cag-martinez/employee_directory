@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/header.css';
 import './styles/table.css';
+import './styles/search.css';
 import Header from './components/Header';
 import Search from './components/Search';
 import Table from "./components/Table"
