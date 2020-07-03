@@ -4,4 +4,4 @@ This application was built using React. In this application employers can view a
 
 ![employee_directory](/public/assets/images/employeeDirectory.png)
 
-link: [https://cag-martinez.github.io/employee_directory](https://cag-martinez.github.io/employee_directory
+link: [https://cag-martinez.github.io/employee_directory](https://cag-martinez.github.io/employee_directory)
