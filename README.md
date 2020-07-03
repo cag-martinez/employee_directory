@@ -4,4 +4,4 @@ This application was built using React. In this application employers can view a
 
 ![employee_directory](/public/assets/images/employeeDirectory.png)
 
-link to: [employee_directory](https://vast-mesa-15984.herokuapp.com/)
+link: [https://vast-mesa-15984.herokuapp.com/](https://vast-mesa-15984.herokuapp.com/)
