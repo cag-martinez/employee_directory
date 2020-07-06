@@ -33,7 +33,6 @@ class App extends React.Component {
 
   handleOrder = () => {
     var oldOrder = this.state.employees;
-
     var self = this;
     function compare(a, b) {
       if (self.state.ascending === true) {
