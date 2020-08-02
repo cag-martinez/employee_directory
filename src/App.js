@@ -1,12 +1,12 @@
-import React from 'react';
-import './styles/header.css';
-import './styles/table.css';
-import './styles/search.css';
-import Header from './components/Header';
-import Search from './components/Search';
-import Table from "./components/Table"
+import React from "react";
+import "./styles/header.css";
+import "./styles/table.css";
+import "./styles/search.css";
+import Header from "./components/Header";
+import Search from "./components/Search";
+import Table from "./components/Table";
 
-import employees from "./lib/employees.json"
+import employees from "./lib/employees.json";
 
 class App extends React.Component {
   state = {
